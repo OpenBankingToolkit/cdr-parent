@@ -29,8 +29,6 @@ jobs:
           server-username: MAVEN_USERNAME # env variable for username in deploy
           server-password: MAVEN_CENTRAL_TOKEN # env variable for token in deploy
 
-      - name: Prepare Release
-        run: mvn
       - name: Release package
         run: mvn -B deploy
         env:
