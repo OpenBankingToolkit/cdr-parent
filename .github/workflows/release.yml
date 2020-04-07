@@ -5,6 +5,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    name: Deploy release
     steps:
       - uses: actions/checkout@v2
         with:
