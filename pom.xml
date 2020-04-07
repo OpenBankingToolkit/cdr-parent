@@ -508,9 +508,7 @@
                     <version>${maven-release-plugin.version}</version>
                     <configuration>
                         <tagNameFormat>@{version}</tagNameFormat>
-                        <scmCommentPrefix>SCM-comment-Prefix</scmCommentPrefix>
-                        <scmDevelopmentCommitComment>SCM-Dev-Commit-comment</scmDevelopmentCommitComment>
-                        <scmReleaseCommitComment>SCM-release-commit-comment</scmReleaseCommitComment>
+                        <scmCommentPrefix>Next release </scmCommentPrefix>
                     </configuration>
                 </plugin>
                 <plugin>
