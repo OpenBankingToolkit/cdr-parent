@@ -508,7 +508,7 @@
                     <version>${maven-release-plugin.version}</version>
                     <configuration>
                         <tagNameFormat>@{version}</tagNameFormat>
-                        <scmCommentPrefix>Next release -&gt; </scmCommentPrefix>
+                        <scmCommentPrefix><![CDATA[Release: ]]></scmCommentPrefix>
                     </configuration>
                 </plugin>
                 <plugin>
