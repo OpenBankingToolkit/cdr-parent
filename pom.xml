@@ -26,7 +26,7 @@
 
     <groupId>com.forgerock.cdr.standards</groupId>
     <artifactId>cdr-standards-starter-parent</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ForgeRock Consumer Data right Standards - Parent</name>
     <description>Parent of all maven common components in the Consumer Data Right project (CDR).</description>
@@ -508,7 +508,7 @@
                     <version>${maven-release-plugin.version}</version>
                     <configuration>
                         <tagNameFormat>@{version}</tagNameFormat>
-                        <scmCommentPrefix>Next release </scmCommentPrefix>
+                        <scmCommentPrefix>Next release -> </scmCommentPrefix>
                     </configuration>
                 </plugin>
                 <plugin>
